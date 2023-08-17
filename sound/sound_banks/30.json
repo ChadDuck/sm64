@@ -1,0 +1,89 @@
+{
+    "date": "1996-03-19",
+    "sample_bank": "instruments",
+    "envelopes": {
+        "envelope0": [
+            [2, 32700],
+            [1, 32700],
+            [32700, 29430],
+            "hang"
+        ],
+        "envelope1": [
+            [6, 32700],
+            [1, 32700],
+            [32700, 29430],
+            "hang"
+        ],
+        "envelope2": [
+            [2, 32700],
+            [55, 32700],
+            [127, 0],
+            "hang"
+        ]
+    },
+    "instruments": {
+        "inst0": {
+            "release_rate": 208,
+            "envelope": "envelope0",
+            "sound": "21_sine_bass"
+        },
+        "inst1": {
+            "release_rate": 128,
+            "envelope": "envelope2",
+            "sound": "36_sawtooth_synth"
+        },
+        "inst2": {
+            "release_rate": 208,
+            "envelope": "envelope0",
+            "sound": "1A_slap_bass"
+        },
+        "inst3": {
+            "release_rate": 208,
+            "envelope": "envelope0",
+            "sound": "1A_slap_bass"
+        },
+        "inst4": {
+            "release_rate": 8,
+            "envelope": "envelope0",
+            "sound": "0E_hihat_closed"   
+        },
+        "inst5": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "06_kick_drum_1"   
+        },
+        "inst6": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "0F_hihat_open"   
+        },
+        "inst7": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "13_snare_drum_2"   
+        },
+        "inst8": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "0A_tambourine"   
+        }
+    },
+    "instrument_list": [
+        "inst0",
+        "inst1",
+        "inst2",
+        "inst3",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "inst4",
+        "inst5",
+        "inst6",
+        "inst7",
+        "inst8",
+        null
+    ]
+}
