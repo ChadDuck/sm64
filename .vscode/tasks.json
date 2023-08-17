@@ -1,0 +1,82 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ROM & Launch",
+            "dependsOn": [
+                "Build ROM - Init",
+                "Build ROM - Levels",
+                "Build ROM - Finalize"
+            ],
+            "dependsOrder": "sequence",
+            "type": "process",
+            "command": "/mnt/c/archlinux/pj64-stable-wsl/Project64.exe",
+            "args": [
+                "./build/us/sm64.us.z64"
+            ],
+            "group": {
+				"kind": "build",
+				"isDefault": true
+			},
+            "presentation": {
+                "reveal": "always",
+                // "clear": true,
+                // "revealProblems": "onProblem",
+                "close": true
+            }
+        },
+        {
+            "label": "Build ROM - Init",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "VERSION=us",
+                "MATCHING=0",
+                "COMPARE=0",
+                "-j8",
+                "-k",
+                "-i"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "close": true
+            }
+        },
+        {
+            "label": "Build ROM - Levels",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "VERSION=us",
+                "MATCHING=0",
+                "COMPARE=0",
+                "-j8",
+                "levels"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "close": true
+            }
+        },
+        {
+            "label": "Build ROM - Finalize",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "VERSION=us",
+                "MATCHING=0",
+                "COMPARE=0",
+                "-j8"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "close": true
+            }
+        },
+    ]
+}
