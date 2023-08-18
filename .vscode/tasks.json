@@ -33,7 +33,7 @@
             "command": "make",
             "args": [
                 "VERSION=us",
-                "MATCHING=0",
+                // "MATCHING=0",
                 "COMPARE=0",
                 "-j8",
                 "-k",
@@ -51,7 +51,7 @@
             "command": "make",
             "args": [
                 "VERSION=us",
-                "MATCHING=0",
+                // "MATCHING=0",
                 "COMPARE=0",
                 "-j8",
                 "levels"
@@ -68,7 +68,7 @@
             "command": "make",
             "args": [
                 "VERSION=us",
-                "MATCHING=0",
+                // "MATCHING=0",
                 "COMPARE=0",
                 "-j8"
             ],
