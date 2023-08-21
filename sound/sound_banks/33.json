@@ -1,0 +1,161 @@
+{
+    "date": "1996-03-19",
+    "sample_bank": "instruments",
+    "envelopes": {
+        "envelope0": [
+            [
+                2,
+                32700
+            ],
+            [
+                1,
+                32700
+            ],
+            [
+                32700,
+                29430
+            ],
+            "hang"
+        ],
+        "envelope1": [
+            [
+                6,
+                32700
+            ],
+            [
+                1,
+                32700
+            ],
+            [
+                32700,
+                29430
+            ],
+            "hang"
+        ],
+        "envelope2": [
+            [
+                2,
+                32700
+            ],
+            [
+                55,
+                32700
+            ],
+            [
+                127,
+                0
+            ],
+            "hang"
+        ]
+    },
+    "instruments": {
+        // Chan 1
+        "inst0": {
+            "release_rate": 128,
+            "envelope": "envelope0",
+            "sound": "36_sawtooth_synth_Eb1"
+        },
+        // Chan 2
+        "inst1": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "06_kick_drum_1"
+        },
+        // Chan 3
+        "inst2": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "11_splash_cymbal"
+        },
+        // Chan 4
+        "inst3": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "08"
+        },
+        // Chan 5
+        "inst4": {
+            "release_rate": 64,
+            "envelope": "envelope0",
+            "sound": "44_grand_piano_F#5"
+        },
+        // Chan 6
+        "inst5": {
+            "release_rate": 64,
+            "envelope": "envelope0",
+            "sound": "26_crystal_rhodes_C4"
+        },
+        // Chan 7
+        "inst6": {
+            "release_rate": 32,
+            "envelope": "envelope0",
+            "sound": "1A_slap_bass_G#2"
+        },
+        // Chan 8
+        "inst7": {
+            "release_rate": 64,
+            "envelope": "envelope0",
+            "sound": "26_crystal_rhodes_C4"
+        },
+        // Chan 9
+        "inst8": {
+            "release_rate": 64,
+            "envelope": "envelope0",
+            "sound": "44_grand_piano_F#5"
+        },
+        // Chan 11
+        "inst9": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "10_cymbal_bell"
+        },
+        // Chan 12
+        "inst10": {
+            "release_rate": 32,
+            "envelope": "envelope0",
+            "sound": "19_brass_Eb3"
+        },
+        // Chan 13
+        "inst11": {
+            "release_rate": 64,
+            "envelope": "envelope0",
+            "sound": "26_crystal_rhodes_C4"
+        },
+        // Chan 14
+        "inst12": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "10_cymbal_bell"
+        },
+        // Chan 15
+        "inst13": {
+            "release_rate": 32,
+            "envelope": "envelope0",
+            "sound": "19_brass_Eb3"
+        },
+        // Chan 16
+        "inst14": {
+            "release_rate": 10,
+            "envelope": "envelope0",
+            "sound": "11_splash_cymbal"
+        }
+    },
+    "instrument_list": [
+        "inst0",
+        "inst1",
+        "inst2",
+        "inst3",
+        "inst4",
+        "inst5",
+        "inst6",
+        "inst7",
+        "inst8",
+        null,
+        "inst9",
+        "inst10",
+        "inst11",
+        "inst12",
+        "inst13",
+        "inst14"
+    ]
+}

@@ -25,72 +25,42 @@
         "inst0": {
             "release_rate": 128,
             "envelope": "envelope0",
-            "sound": "21_sine_bass_Bb2"
+            "sound": "1A_slap_bass_G#2"
         },
         "inst1": {
             "release_rate": 128,
             "envelope": "envelope2",
-            "sound": "36_sawtooth_synth_Eb1"
+            "sound": "19_brass_Eb3"
         },
         "inst2": {
             "release_rate": 208,
             "envelope": "envelope0",
-            "sound": "1A_slap_bass_G#2"
+            "sound": "1B_percussive_synth_Eb3"
         },
         "inst3": {
             "release_rate": 208,
             "envelope": "envelope0",
-            "sound": "1A_slap_bass_G#2"
+            "sound": "08"
         },
         "inst4": {
             "release_rate": 10,
             "envelope": "envelope0",
-            "sound": "06_kick_drum_1"   
+            "sound": "11_splash_cymbal"  
         },
         "inst5": {
             "release_rate": 10,
             "envelope": "envelope0",
-            "sound": "13_snare_drum_2"   
+            "sound": "06_kick_drum_1" 
         },
         "inst6": {
             "release_rate": 8,
             "envelope": "envelope0",
-            "sound": "11_splash_cymbal"   
+            "sound": "0F_hihat_open" 
         },
         "inst7": {
             "release_rate": 8,
             "envelope": "envelope0",
-            "sound": "11_splash_cymbal"   
-        },
-        "inst8": {
-            "release_rate": 10,
-            "envelope": "envelope0",
-            "sound": "0E_hihat_closed"   
-        },
-        "inst9": {
-            "release_rate": 10,
-            "envelope": "envelope0",
-            "sound": "0F_hihat_open"   
-        },
-        "inst10": {
-            "release_rate": 10,
-            "envelope": "envelope0",
-            "sound": "0A_tambourine"   
-        },
-        "inst11": {
-            "release_rate": 10,
-            "envelope": "envelope0",
-            "sound": "09"   
-        },
-        "inst12": {
-            "release_rate": 10,
-            "envelope": "envelope0",
-            "sound": "09"   
-        },
-        "inst13": {
-            "release_rate": 10,
-            "envelope": "envelope0",
-            "sound": "09"
+            "sound": "10_cymbal_bell"
         }
     },
     "instrument_list": [
@@ -102,13 +72,13 @@
         "inst5",
         "inst6",
         "inst7",
-        "inst8",
         null,
-        "inst9",
-        "inst10",
-        "inst11",
-        "inst12",
-        "inst13",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ]
 }
