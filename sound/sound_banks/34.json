@@ -6,59 +6,91 @@
     },
     "instruments": {
       "inst0": {
-        "sound": "31_rarefaction-convolution_Eb2",
-        "release_rate": 128,
-        "envelope": "envelope0"
-      },
-      "inst1": {
-        "sound": "31_rarefaction-convolution_Eb2",
-        "release_rate": 128,
-        "envelope": "envelope0"
-      },
-      "inst2": {
-        "sound": "19_brass_Eb3",
-        "release_rate": 128,
-        "envelope": "envelope0"
-      },
-      "inst3": {
-        "sound": "19_brass_Eb3",
-        "release_rate": 128,
-        "envelope": "envelope0"
-      },
-      "inst4": {
-        "sound": "23_strings_Eb2",
-        "release_rate": 128,
-        "envelope": "envelope0"
-      },
-      "inst5": {
         "sound": "1A_slap_bass_G#2",
         "release_rate": 128,
         "envelope": "envelope0"
       },
-      "inst6": {
-        "sound": "27_harpsichord_F3",
+      "inst1": {
+        "sound": "1A_slap_bass_G#2",
         "release_rate": 128,
         "envelope": "envelope0"
       },
-      "inst7": { "sound": "06_kick_drum_1", "release_rate": 10, "envelope": "envelope0" },
-      "inst8": { "sound": "08", "release_rate": 10, "envelope": "envelope0" },
-      "inst10": { "sound": "09", "release_rate": 10, "envelope": "envelope0" },
-      "inst11": { "sound": "09", "release_rate": 10, "envelope": "envelope0" },
-      "inst12": { "sound": "09", "release_rate": 10, "envelope": "envelope0" },
-      "inst13": {
-        "sound": "0F_hihat_open",
-        "release_rate": 10,
+      "inst2": {
+        "sound": "35_gospel_organ_F4",
+        "release_rate": 128,
         "envelope": "envelope0"
+      },
+      "inst3": {
+        "sound": "35_gospel_organ_F4",
+        "release_rate": 128,
+        "envelope": "envelope0"
+      },
+      "inst4": {
+        "sound": "35_gospel_organ_F4",
+        "release_rate": 128,
+        "envelope": "envelope0"
+      },
+      "inst5": { "sound": "09", "release_rate": 128, "envelope": "envelope0" },
+      "inst6": { "sound": "09", "release_rate": 128, "envelope": "envelope0" },
+      "inst7": {
+        "sound": "19_brass_Eb3",
+        "release_rate": 128,
+        "envelope": "envelope0"
+      },
+      "inst8": {
+          "release_rate": 10,
+          "normal_range_lo": 54,
+          "normal_range": 56,
+          "normal_range_hi": 57,
+          "envelope": "envelope0",
+          "sound_lo": "09",
+          "sound": "09",
+          "sound_hi": "09"
+      },
+      "inst10": {
+          "release_rate": 10,
+          "normal_range_lo": 60,
+          "normal_range": 61,
+          "normal_range_hi": 62,
+          "envelope": "envelope0",
+          "sound_lo": "09",
+          "sound": "09",
+          "sound_hi": "09"
+      },
+      "inst11": {
+          "release_rate": 10,
+          "normal_range_lo": 58,
+          "normal_range": 60,
+          "normal_range_hi": 64,
+          "envelope": "envelope0",
+          "sound_lo": "11_splash_cymbal",
+          "sound": "10_cymbal_bell",
+          "sound_hi": "11_splash_cymbal"
+      },
+      "inst12": {
+          "release_rate": 10,
+          "normal_range_lo": 61,
+          "normal_range": 63,
+          "normal_range_hi": 64,
+          "envelope": "envelope0",
+          "sound_lo": "0E_hihat_closed",
+          "sound": "0F_hihat_open",
+          "sound_hi": "0F_hihat_open"
+      },
+      "inst13": {
+          "release_rate": 10,
+          "normal_range_lo": 60,
+          "normal_range": 61,
+          "normal_range_hi": 63,
+          "envelope": "envelope0",
+          "sound_lo": "06_kick_drum_1",
+          "sound": "06_kick_drum_1",
+          "sound_hi": "08"
       },
       "inst14": {
-        "sound": "11_splash_cymbal",
-        "release_rate": 10,
-        "envelope": "envelope0"
-      },
-      "inst15": {
-        "sound": "11_splash_cymbal",
-        "release_rate": 10,
-        "envelope": "envelope0"
+          "release_rate": 10,
+          "envelope": "envelope0",
+          "sound": "11_splash_cymbal"
       }
     },
     "instrument_list": [
@@ -77,7 +109,7 @@
       "inst12",
       "inst13",
       "inst14",
-      "inst15"
+      null
     ]
   }
   
